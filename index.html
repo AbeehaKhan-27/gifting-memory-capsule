@@ -5,22 +5,69 @@
     <title>Memory Capsule</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link rel="stylesheet" href="style.css">
     <style>
-      /* You can put any CSS styles here */
+      head {
+        font-size: 2em; 
+        font-family: 'Franklin Gothic Medium';
+        text-align: center;
+      }
+      body {
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        margin: 0;
+      }
+      main {
+        padding: 150px 20px;
+      }
       img {
         max-width: 100%;
       }
+      footer {
+        font-size: 10px;
+        margin: 5em auto;
+      }
     </style>
   </head>
-  <h1 style="font-size: 2em; font-family: 'Franklin Gothic Medium';"align="center">FRIENDSHIP CAPSULE</h1>
+  <h1> MEMORY CAPSULE </h1>
   <body>
     <!-- You can put your HTML here -->
-    <p 
-      style="text-align: center;">All the people I've met. All the places I've been. <br>
+    <p >
+      All the people I've met. All the places I've been. <br>
       Click on an emoji to see what I associate with that emotion.
     </p>
-    <p style="font-size: 1.5em; font-family: Georgia; text-align: left;">
-      &#127968 <br> <a href="home.html"> home </a>
+
+    <section class="container">
+      <div class="slider-wrapper">
+        <!--images-->
+        <div class="slider">
+          <img id="slide-1" src="home.png" alt="Trees and mountains in Nathiagali"></a>
+          <img id="slide-2" src="noora.png" alt="Noora on her bike infront of trees"/>
+          <img id="slide-3" src="sidratul.JPG" alt="Sidratul holding flowers"/>
+        </div>
+        <!--controls-->
+        <div class="slider-nav">
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+        </div>
+        <!--buttons-->
+          <a href=home.html>
+            <div class="slider-buttons">More</div>
+          </a>
+      </div>
+    </section>
+
+
+
+
+
+
+    <p style="font-size: 4em; text-align: left;">
+      <a href="home.html"> &#127968 </a>
+
+      <a href="sunshine.html" align="middle"> &#127774 </a>
     </p>
 
       <p>
