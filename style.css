@@ -47,17 +47,18 @@
     opacity: 1;
 }
 
-.slider-buttons {
+.slider-buttons {    
     top: 105%;
-    left: 40%;
-    width:auto;
+    left: 45%;
+    width: 60px;
     height:auto;
+    color: white;
     position: absolute;
     z-index: 2;
     background: grey; 
-    text-decoration-color: #fff;
-
-    text-decoration: none;
+    box-shadow: 0 1.5 rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
     padding: 0.5rem;
     border: 1px solid #333333;
+    border-radius: 0.5rem;
+    opacity: 0.75;
 }
